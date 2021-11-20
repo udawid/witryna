@@ -1,5 +1,5 @@
 # Praca w zespole  
-## Witryna na _zaliczenie przedmiotu _ 
+## Witryna na _zaliczenie przedmiotu_ 
 *Grupa nr 4* 
 - Dawid Urbaniak – kierownik 
 - Piotr Michalak – informacje o portalu
