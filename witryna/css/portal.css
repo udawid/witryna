@@ -12,6 +12,12 @@ body {
 
 
 
+.kontakt {
+    padding: 50px 0px;
+    background-color: #5e70d6;
+    color: white;
+}
+
 .mapa {
     position: relative;
     padding-bottom: 300px;
