@@ -18,6 +18,17 @@ body {
     color: white;
 }
 
+.kontakt .title_k {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.kontakt .description_k {
+    font-weight: lighter;
+    font-style: italic;
+    padding: 5px;
+}
+
 .mapa {
     position: relative;
     padding-bottom: 300px;
