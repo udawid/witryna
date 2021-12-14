@@ -9,6 +9,7 @@
     <link href="css/portal.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,13 +25,46 @@
         <!-- forumlarz kontaktowy -->
         <div class="kontakt">
             <div class="container">
-                <div class="row text-center">
-                    <header>
-                        <h3 class="title_k">Kontakt</h3>
-                    </header>
-                    <footer>
-                        <h4 class="description_k">Czekamy na Twoją opinię.</h4>
-                    </footer>                    
+                <div class="row">
+                    <!-- nagłówek -->
+                    <div class="row text-center">
+                        <div class="col-sm-8 offset-sm-2 col-xs-10 offset-xs-1">
+                            <header>
+                                <h3 class="title_k">Kontakt</h3>
+                            </header>
+                            <footer>
+                                <h4 class="description_k">Czekamy na Twoją opinię.</h4>
+                            </footer> 
+                        </div>                   
+                    </div>
+                    
+                    <div class="col-sm-8 offset-sm-2 col-xs-10 offset-xs-1">
+                        <!-- dane adresaowe -->
+                        <div>
+                            <p><i class="fas fa-map-marker-alt"></i> Płock, al. Kilińskiego 12 </p>
+                            <p><i class="fas fa-phone-volume "></i> +48 24 366 41 28 </p>
+                            <p><i class="fas fa-envelope"></i> informatyka@włodkowic.pl </p>
+                        </div>
+                       <!-- panel kontaktowy-->
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Podaj imię</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="imię">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Podaj adres e-mail</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e-mail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Wpisz swoje uwagi i komentarze</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Uwagi i komentarze" rows="6"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-4 offset-8">                     
+                                <button type="submitx" class="btn btn-primary">Prześlij</button>                         
+                            </div>
+                        </div> 
+                     
+                    </div>
                 </div>
             </div>
 
