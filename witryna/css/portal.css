@@ -2,3 +2,49 @@
      background-color: #9fa7d6;
     }
 
+
+
+.container {
+    width: 96%;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+
+
+.kontakt {
+    padding: 50px 0px;
+    background-color: #5e70d6;
+    color: white;
+}
+
+.kontakt .title_k {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.kontakt .description_k {
+    font-weight: lighter;
+    font-style: italic;
+    padding: 5px;
+}
+
+.mapa {
+    position: relative;
+    padding-bottom: 300px;
+    height: 0; overflow: hidden; 
+} 
+
+.mapa iframe { 
+    position: absolute; 
+    top: 0; left: 0; 
+    width: 100% !important; 
+    height: 100% !important; 
+}
+
+.stopka {
+    padding: 25px 0px;
+    background-color: black;
+    color: white;
+}
+
