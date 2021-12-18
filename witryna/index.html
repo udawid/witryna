@@ -14,10 +14,27 @@
 </head>
 <body>
     <!-- menu -->
-
+    <nav id="navbar-example2" class="navbar navbar-light bg-light" >
+        <a class="navbar-brand" href="#">InfoInfo</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#onas">O nas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kategorie">Kategorie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#autorzy">Autorzy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontakt">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      
     <main>
         <!-- informacja o portalu -->
-        <article class="info">
+        <article class="info" id="onas">
             <div class="container">
                 <div class="text-center">
                     <div class="col-sm-8 offset-sm-2 col-xs-10 offset-xs-1">
@@ -38,7 +55,7 @@
             </div>
         </article>
         <!-- kategoria tekstów -->
-        <div class="row text-center color">
+        <article class="row text-center color" id="kategorie">
             <div class="col-12 col-sm-6 col-md-4 my-4">
               
                     
@@ -115,10 +132,10 @@
                 </div>
           
         </div>
-        </div>
+        </article>
 
         <!-- prezentacja autorów -->
-        <div class="autorzy"> 
+        <section class="autorzy" id="autorzy"> 
             <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -155,9 +172,9 @@
                 <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </div>
+        </section>
         <!-- forumlarz kontaktowy -->
-        <div class="kontakt">
+        <section class="kontakt" id="kontakt">
             <div class="">
                 <!-- nagłówek -->
                 <div class="container">
@@ -206,7 +223,7 @@
                     </div>
                 </div>        
             </div>
-        </div>
+        </section>
 
         <!-- mapa -->
         <div class="mapa">
