@@ -11,6 +11,11 @@
 }
 
 
+.autorzy{
+    background-color: #E6E9FA;
+    }
+
+
 
 .kontakt {
     padding: 50px 0px;
@@ -47,4 +52,5 @@
     background-color: black;
     color: white;
 }
+
 
