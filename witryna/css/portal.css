@@ -8,6 +8,31 @@
     width: 96%;
     padding: 0 2%;
     margin: 0 auto;
+
+    margin-right: 100px;
+}
+
+.info {
+    padding: 50px 0%;
+    background-color: #3D488A;
+    color: #fff;
+}
+
+.info .title {
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+.info .description {
+    line-height: 2.5rem;
+}
+
+.info .motto {
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+}
+
 }
 
 
@@ -52,5 +77,4 @@
     background-color: black;
     color: white;
 }
-
 
